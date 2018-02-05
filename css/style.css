@@ -12,6 +12,7 @@ body {
   margin-bottom: 15px;
   background-color: white;
   min-height: 80vh;
+  opacity: 0.5;
 }
 
 .option-card {
