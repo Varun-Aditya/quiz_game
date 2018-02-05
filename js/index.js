@@ -134,14 +134,14 @@ var GameBoard = function (_React$Component4) {
       correct: 0,
       incorrect: 0,
       activeGame: true,
-     questionsAnswer: [{ // 1
-        question: 'Do koalas have babies is eggs?',
-        options: ['Yes', 'No'],
-        answer: "No"
-      }, { // 2
+     questionsAnswer: [{ // 2
         question: 'What year was this website created in?',
         options: ['2012', '2014', '2017', '2016'],
         answer: '2017'
+      }, { // 1
+        question: 'Do koalas have babies is eggs?',
+        options: ['Yes', 'No'],
+        answer: "No"
       }, { // 3
         question: 'How many eggs do leatherback turtles lay at a time?',
         options: ['100', '105', '110', '120'],
