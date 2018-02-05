@@ -134,31 +134,35 @@ var GameBoard = function (_React$Component4) {
       correct: 0,
       incorrect: 0,
       activeGame: true,
-      questionsAnswer: [{ // 1
-        question: 'Who is Darth Vader?',
-        options: ["Jedi", "Sith", "Rebel", "Emperor"],
-        answer: "Sith"
+     questionsAnswer: [{ // 1
+        question: 'Do koalas have babies is eggs?',
+        options: ['Yes', 'No'],
+        answer: "No"
       }, { // 2
-        question: 'Who is Luke Skywalker’s dad?',
-        options: ['Boba Fett', 'Jango Fett', 'Anakin Skywalker', 'Emperor',5],
-        answer: 'Anakin Skywalker'
+        question: 'What year was this website created in?',
+        options: ['2012', '2014', '2017', '2016'],
+        answer: '2017'
       }, { // 3
-        question: 'Who kills Jabba The Hutt?',
-        options: ['Luke Skywalker', 'Princess Leia', 'Han Solo', 'Darth Vader'],
-        answer: 'Princess Leia'
+        question: 'How many eggs do leatherback turtles lay at a time?',
+        options: ['100', '105', '110', '120'],
+        answer: '110'
       }, { // 4
-        question: 'What planet do Wookiees come from?',
-        options: ['Tatooine', 'Kashyyk', 'Naboo', 'Endor'],
-        answer: 'Kashyyk'
+        question: 'When was Marie Curie born (year)? ',
+        options: ['1894', '1773', '1867', '1993'],
+        answer: '1867'
       }, { // 5
-        question: 'Darth Vader cut off hand of:',
-        options: ['Count Dooku', 'Mace Windu', 'Luke Skywalker', 'All of them'],
-        answer: 'All of them'
-      }, { // 6
-        question: 'Who is the first person to say “May the Force be with you” in A New Hope',
-        options: ['Master Yoda', 'Luke Skywalker', 'Princess Leia', 'General Dodonna'],
-        answer: 'General Dodonna'
-      }]
+        question: 'When was Apple founded?',
+        options: ['1976', '1920', '1995', '1975'],
+        answer: '1976'
+        }, { // 6
+        question: 'What year was google founded?',
+        options: ['1998', '1923', '1996', '1769'],
+        answer: '1998'
+        }, { // 7
+        question: 'What is 786346792 x 566889?',
+        options: ['4.4577135e+14', '675848743897'],
+        answer: '4.4577135e+14'
+        }]
     };
     return _this4;
   }
